@@ -23,14 +23,14 @@ For some of the problems, you'll have to use functions or other variables suppli
 
 **Example Usage of `Math`**
 ```javascript
-	var absoluteValue = Math.abs(-4);
-	// evaluates to 4
+  var absoluteValue = Math.abs(-4);
+  // evaluates to 4
 
-	var fourSquared = Math.pow(4, 2);
-	// evaluates to 16
+  var fourSquared = Math.pow(4, 2);
+  // evaluates to 16
 
-	var roundedToNearestInteger = Math.round(1.22343);
-	// evaluates to 1
+  var roundedToNearestInteger = Math.round(1.22343);
+  // evaluates to 1
 ```
 
 
@@ -52,7 +52,8 @@ Return a new string that is the combination of two arguments passed into the fun
 
 ```javascript
 function combineWords(word1, word2) {
-	// TODO: Place your code here
+  // TODO: Place your code here
+
 }
 
 var result = combineWords('dog', 'house');
@@ -65,7 +66,7 @@ Display an argument phrase to the console n times
 
 ```javascript
 function repeatPhrase(phrase, n) {
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 
 repeatPhrase("Hello", 5);
@@ -85,7 +86,7 @@ Return number <sup>power</sup> *without* using built-in `Math` functions
 
 ```javascript
 function toTheNthPower(number, power) {
-	// TODO: Place your code here		
+  // TODO: Place your code here    
 }
 
 var result = toTheNthPower(4, 5);
@@ -99,7 +100,7 @@ Return the area of a circle given the radius
 
 ```javascript
 function areaOfACircle(radius) {
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 
 var result = areaOfACircle(2);
@@ -114,7 +115,7 @@ Return c given a and b
 
 ```javascript
 function pythagoreanTheorem(a, b) {
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 
 var result = pythagoreanTheorem(3, 4);
@@ -129,7 +130,7 @@ Return a boolean value whether or not X can be divided by Y without any remainde
 
 ```javascript
 function isXEvenlyDivisibleByY(x, y) {
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 
 var result = isXEvenlyDivisibleByY(99, 3);
@@ -145,7 +146,7 @@ Vowels are `a`, `e`, `i`, `o`, `u`, and `y`
 
 ```javascript
 function countVowels(word) {
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 
 var result = countVowels("stealing");
@@ -166,9 +167,9 @@ findWdi(['a','b','c']) // returns false
 
 ```javascript
 
-	function findWdi(arr){
-		// TODO: Place your code here
-	}
+  function findWdi(arr){
+    // TODO: Place your code here
+  }
 
 ```
 
@@ -188,7 +189,7 @@ printTriangle(5)**
 
 ```javascript
 function printTriangle(length) {
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 
 printTriangle(3);
@@ -218,6 +219,6 @@ printTriangle(3);
 
 ```javascript
 function printPyramid(length) {
-	// TODO: Place your code here
+  // TODO: Place your code here
 }
 ```
